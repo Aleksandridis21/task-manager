@@ -1,0 +1,67 @@
+.box {
+   background-color: rgba(238, 238, 238, 0.719);
+   height: 180px;
+   width: 500px;
+   border:2px solid rgb(211, 198, 198);
+   margin: auto;
+   margin-top: 200px;
+   border: none; 
+   box-shadow: 5px 5px #d4d6d9;
+
+}
+
+h1 {
+   color:black;
+   text-align: center;
+   padding-top: 20px;
+   font-family:Arial, Helvetica, sans-serif
+}
+
+button {
+   background-color: #8966d3; /* Green */
+   border: none;
+   color: rgb(255, 255, 255);
+   padding: 9px 20px;
+   font-size: 12.5px;
+   margin-left: 0px;
+   border-radius: 3px 3px 3px 3px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   cursor: pointer;
+   
+  
+
+ }
+
+input{
+   width: 300px;
+   height: 31.5px;
+   background-color: rgb(217, 220, 234);
+   margin-top: 50px;
+   margin:auto;
+   margin-left: 50px;
+   font-family :'Times New Roman', Times, serif;
+   border-radius: 3px 3px 3px 3px;
+   border: none;
+
+   
+   
+   
+}
+
+::placeholder {
+   color: red;
+   opacity: 1; /* Firefox */
+ }
+
+   
+
+p {
+   color:rgb(29, 14, 14);
+   text-align: center;
+   padding-top: 130px;
+   font-size: 25px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+ 
+
