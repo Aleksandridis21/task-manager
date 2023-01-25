@@ -1,12 +1,15 @@
 .box {
-   background-color: rgba(238, 238, 238, 0.719);
+   background-color:white;
    height: 180px;
    width: 500px;
    border:2px solid rgb(211, 198, 198);
    margin: auto;
    margin-top: 200px;
-   border: none; 
-   box-shadow: 5px 5px #d4d6d9;
+   /*border: none; 
+   /*box-shadow: 3px 3px #ffe11e;*/
+   border: 3px solid red;
+   
+
 
 }
 
@@ -14,7 +17,12 @@ h1 {
    color:black;
    text-align: center;
    padding-top: 20px;
-   font-family:Arial, Helvetica, sans-serif
+   font-weight:normal;
+   word-spacing: 7px;
+   letter-spacing: 2px;
+
+   font-family: fantasy;
+   
 }
 
 button {
@@ -35,13 +43,15 @@ button {
 input{
    width: 300px;
    height: 31.5px;
-   background-color: rgb(217, 220, 234);
+   background-color:#c6c6c6;
    margin-top: 50px;
    margin:auto;
    margin-left: 50px;
    font-family :'Times New Roman', Times, serif;
    border-radius: 3px 3px 3px 3px;
    border: none;
+   border: 1px solid red;
+   display: inline block;
 
    
    
@@ -49,8 +59,11 @@ input{
 }
 
 ::placeholder {
-   color: red;
-   opacity: 1; 
+   color: black;
+   opacity: 7; 
+
+   font-family: monospace;
+   
  }
 
    
@@ -63,5 +76,104 @@ p {
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    
 }
- 
 
+.background {
+   align-items: center;
+
+   display: flex;
+   margin:0 auto;
+   
+   width: 500px;
+
+   background-color:white;
+   justify-content: space-between;
+
+   margin-top: 25px;
+   border: 3px solid red;
+   
+
+}
+
+h2{
+
+   font-weight: normal;
+   display: flex;
+   align-items: center;
+   font-family: serif;
+   letter-spacing: 2px;
+   
+   
+
+}
+
+.style{
+
+   display: inline-block;
+   width: 35px;
+   height: 35px;
+   background: url('./icons/edit.png');
+   
+   background-size: contain;
+}
+
+.delete{
+   display: inline-block;
+   width: 35px;
+   height: 35px;
+   background:url('./icons/delete.png');
+
+   background-size: contain;
+
+   
+}
+
+.Checkbox{
+
+   display: inline-block;
+
+   width: 35px;
+   height: 35px;
+   background : url('./icons/done.png');
+
+   background-size: contain;
+
+
+}
+
+
+
+.Checkbox{
+
+   visibility: hidden;
+}
+
+.task-complited .Checkbox{
+
+   visibility: visible;
+}
+
+
+.task-complited h2 {
+
+   text-decoration: line-through;
+
+
+}
+
+h3{
+
+   font-weight: normal;
+   display: flex;
+   align-items: center;
+   font-family: serif;
+   letter-spacing: 2px;
+
+   font-weight:bold;
+
+
+}
+
+body{
+
+   background-color:black;
+}
