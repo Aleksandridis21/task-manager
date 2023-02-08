@@ -35,8 +35,7 @@ button {
    border-radius: 3px 3px 3px 3px;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
    cursor: pointer;
-   
-  
+    
 
  }
 
@@ -51,22 +50,17 @@ input{
    border-radius: 3px 3px 3px 3px;
    border: none;
    border: 1px solid red;
-   display: inline block;
-
-   
-   
+   display: inline block;  
    
 }
 
 ::placeholder {
    color: black;
    opacity: 7; 
-
    font-family: monospace;
    
  }
-
-   
+ 
 
 p {
    color:rgb(29, 14, 14);
@@ -89,8 +83,7 @@ p {
    justify-content: space-between;
 
    margin-top: 25px;
-   border: 3px solid red;
-   
+   border: 3px solid red;  
 
 }
 
@@ -101,8 +94,7 @@ h2{
    align-items: center;
    font-family: serif;
    letter-spacing: 2px;
-   
-   
+     
 
 }
 
@@ -111,8 +103,7 @@ h2{
    display: inline-block;
    width: 35px;
    height: 35px;
-   background: url('./icons/edit.png');
-   
+   background: url('./icons/edit.png');  
    background-size: contain;
 }
 
@@ -121,9 +112,7 @@ h2{
    width: 35px;
    height: 35px;
    background:url('./icons/delete.png');
-
    background-size: contain;
-
    
 }
 
@@ -134,12 +123,9 @@ h2{
    width: 35px;
    height: 35px;
    background : url('./icons/done.png');
-
    background-size: contain;
 
-
 }
-
 
 
 .Checkbox{
@@ -156,8 +142,6 @@ h2{
 .task-complited h2 {
 
    text-decoration: line-through;
-
-
 }
 
 h3{
@@ -167,13 +151,28 @@ h3{
    align-items: center;
    font-family: serif;
    letter-spacing: 2px;
-
    font-weight:bold;
-
-
 }
 
 body{
 
    background-color:black;
+
+}
+
+#errormessage{
+
+   padding-left: 50px;
+   margin-top: 1px;
+   display: none;
+   
+}
+
+.error{
+   display: block ! important;
+   color: red;
+
+}
+.success{
+   color: green;
 }

@@ -11,85 +11,40 @@
 
 
 </head>
-<body>
-    <div class="box">
-        <h1>Task Manager</h1>
-        
-    
-    
-        <input type="inputi" placeholder="e.g. wash dishes">
-        <button>Submit</button>
-       
-    </div>
-
-    
-
-
+    <body>
+        <div class="box">
+            <h1>Task Manager</h1>
+            <input id="put" type="inputi" placeholder="e.g. wash dishes">
+            <button onclick="addList()">Submit </button> 
+            <div id="errormessage">Something went wrong</div>
+        </div>
 
     <main>
 
-        <div class="background task-complited" >
-
-        
-            <h2>
-                <span class="Checkbox"></span>
-                
-                Web Applicaitons
-            
-            
-            </h2>
-
-            <div>
-
-                
-
-
-            <a class="style" href="./task.html"></a>
-
-            <button class="delete"></button>
-
-            
-
+        <div id="TasksContainer">
+            <div class="background task-complited" >
+                <h2>
+                    <span class="Checkbox"></span>            
+                    Web Applicaitons                 
+                </h2>
+                    <div>          
+                        <a class="style" href="./task.html"></a>
+                        <button class="delete"></button>
+                    </div>
             </div>
-
-
-
-            
-
-
-            
-
-
-    </main>
-    <div class="background" >
-
-        
-        <h3>
-            <span class="Checkbox"></span>
-            
-            Html & Css
-        
-        
-        </h3>
-
-        <div>
-
-            
-
-
-        <a class="style" href="./task.html"></a>
-
-        <button class="delete"></button>
-
-        
-
         </div>
 
-           
+       
 
+    </main>     
 
+    </div>
 
-     </div>
+     <script src="./index.js">
+
+       
+       
+     </script>
 
     
 </body>
