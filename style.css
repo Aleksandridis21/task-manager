@@ -165,7 +165,16 @@ body{
    padding-left: 50px;
    margin-top: 1px;
    display: none;
+   color:red;
    
+}
+
+#successmessage {
+
+   padding-left: 50px;
+   margin-top: 1px;
+   display: none;
+   color:green;
 }
 
 .error{
@@ -175,4 +184,6 @@ body{
 }
 .success{
    color: green;
+   display: block ! important;
+   
 }
